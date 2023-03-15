@@ -1,0 +1,65 @@
+/* Style the form */
+#regForm{
+    background-color: #dff6ee;
+    margin: 100px auto;
+    padding: 40px;
+    width: 70%;
+    min-width: 300px;
+}
+
+div.header{
+    font-family: monospace;
+    width: 100%;
+    background-color: cyan;
+}
+
+div.header > p{
+    text-align: center;
+    font-size: 20px;
+    padding: 10px;
+    background-color: orangered;
+}
+
+/* style the inputs */
+input{
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+}
+
+
+/* mark errored input boxes */
+input.invalid{
+    background-color: #ffdddd;
+}
+
+/* Hide all divs steps */
+.tab{
+    display: none;
+}
+
+
+/* design circles */
+.step{
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    margin: 0 2px;
+    background-color: #bbbbbb;
+    border: none;
+    border-radius: 50%;
+    opacity: 0.5;
+}
+
+/* mark circles as current open*/
+.step.active{
+    opacity: 1;
+}
+
+
+/* mark cicles as done */
+.step.finish{
+    background-color: green;
+}
